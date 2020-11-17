@@ -56,6 +56,7 @@ class Solution:
         nums[pivot_index], nums[right] = nums[right], nums[pivot_index]
         return right
 
+    # 归并排序 时间复杂度O(nlogn)
     def merge_sort(self, nums):
         if len(nums) <= 1:
             return nums
